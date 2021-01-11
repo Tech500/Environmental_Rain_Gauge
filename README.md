@@ -34,7 +34,7 @@ web page. Graphs are created from Iframes provided by "ThingSpeak.com"
 
 12  OTA updates are a feature of the Sketch. 
 
-13. Two web sites, one sketch: "Rain_Gauge.ino"
+13. Two web sites, one sketch: "Environmental_Rain_Gauge.ino"
 
 14.  Must maintain data log files by removing old log files, keep latest, four log files; easily accomplished using FTP.  
 Filezillia has been used successfully.
