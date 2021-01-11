@@ -1,7 +1,7 @@
 # Environmental_Rain_Gauge
 BME280 outputs with Heatindex, Dewpoint; plus a rain gauge 
 
-Features of "Rain_Gauge.ino". Version 2.9
+Features of "Environmental_Rain_Gauge.ino". 
 
 1. NTP Time Server is used for 15 minute time interval, date-time stamping; Data log file gets created daily. 
 File name is in the format "LOGxxyyzzzz" xx being the DATE and yy being the MONTH and zzzz being the YEAR.
