@@ -1,0 +1,56 @@
+Features of "Rain_Gauge_Two.ino". Version 2.0
+
+New in this version:  All customizing edits are now in file; located in "variableInput.h."
+Additional comments in the "variableInput.h" file.
+
+1. NTP Time; used for 15 minute time interval and date-time stamping; 
+"LOG. file gets created daily. File name is in the format "LOGxxyyzzzz" xx being the DATE and yy 
+beining the MONTH and zzzz being the YEAR; a new log file is created after every file renaming. 
+
+2. Dynamic web page of current observations showing Last update time and date, humidity,  
+temperature, barometric pressure, rainfall by five minutes, hour, and day.
+
+3. Only LOG files are listed as web links; for download.  
+
+4. LOGXXYYZZZZ file is appended every 15 minutes with the latest update; storing data to Dynamic,
+web page.
+
+5. URL file names other than ones defined in the Sketch produce "404 Page not found." Methods 
+other than "GET," produce "405" message and exits current request.
+
+6. Optional; Audible alert from Piezo electric buzzer when there is Barometric Pressure difference 
+of.020 inches of Mercury. I am interested in sudden drop of Barometric Pressure in a 15 minute
+interval. Serve weather more likely with a sudden drop. Difference of .020 inches of Mercury
+point is set for my observations to log and sound audible alert; not based on any known value
+to be associated with serve weather.
+
+7. Optional; two-line LCD Display of Barometric Pressure, in both inches of Mercury and millibars.
+
+8. Temperature, Humidity, Barometric Pressure, and Dew Point have four embedded "ThinkSpeak.com"
+graphs on one web page. Graphs are created from Iframes provided by "ThingSpeak.com"
+
+9. HTTPClient library is used to POST data to the Domain, hosted website. Function 
+"webInterface" function sends data to Domain website.
+
+10. Free, "000webhost powered by HOSTINGER" may be used for Domain, hosted website.
+
+11. "dataCollector.php" needs to be uploaded to your Domain, Hosted web site.
+
+12 Simple FTP file transfer; allows for easy file maintenance, preventing too many log log files.
+Tested with Filezilla client.
+
+13. Built-in OTA update; remote sketch update by web interface; ota function.
+
+14. Two websites,one sketch: "Rain_Gauge_Two.ino"
+
+ES32 Server https://bit.ly/2FiuNE5 Dynamic web page, file browser (selected file can be downloaded), 
+and graphs. Note this project is in development; maybe offline or log files may be affected. Server 
+is online 24/7; except during periods of testing. Sensor is currenty located inside of house..
+
+-----------------------------------------------------------------------------------
+
+Server is an "Adafruit, Espressif ESP32 Development Board - Developer Edition," PRODUCT ID: 3269. 
+Development board, GY-BME280 breakout board, purchased from "Ebay.com," NEO m8n GPS Module,and a 
+"tipping bucket" rain gauge are required for project.
+
+Development board is "Arduino" friendly; can be programed using the Arduino IDE.
