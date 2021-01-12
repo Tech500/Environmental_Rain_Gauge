@@ -32,7 +32,7 @@ web page. Graphs are created from Iframes provided by "ThingSpeak.com"
 11. Free, "000webhost powered by HOSTINGER" may be used for Domain, hosted website.  Every 15 minutes; a new 
 "Observations-II" web page is created.
 
-12  OTA updates are a feature of the Sketch. 
+12.  OTA updates are a feature of the Sketch. 
 
 13. Two web sites, one sketch: "Environmental_Rain_Gauge.ino"
 
