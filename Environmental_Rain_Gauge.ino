@@ -32,6 +32,9 @@
 //
 //                       Note:  Uses ESP32 core by ESP32 Community, version 1.0.4; from "Arduino IDE, Board Manager."   Arduino IDE; use Board:  "Node32s" for the "HiLetGo" ESP32 Board.
 //
+//                       ESP32 Server for project:  http://weather-3.ddns.net/Weather
+//
+//                       Domain, hosted web page for project:  https://observations-weather.000webhostapp.com/observations-II.html
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
