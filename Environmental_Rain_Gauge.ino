@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//                       Version  3.0.1  "Environmental_Rain_Gauge.ino"  12/20/2020 @ 11:03 EDT Developed by William  M. Lucid, techno500
+//                       Version  3.0.2  "Environmental_Rain_Gauge.ino"  01/20/2021 @ 119:36 EST Developed by William  M. Lucid, tech500
 //                       Licensed under GNU GPL v3.0, https://www.gnu.org/licenses/gpl.html
 //
 //                       New:  Added  Environmental Calculations for Dewpoint, Heatindex, and Sea level Barometric Pressure.
